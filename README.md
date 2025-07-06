@@ -1,6 +1,6 @@
 # AutoParts - Sistema de Controle de Estoque
 
-![AutoParts Logo](https://via.placeholder.com/400x100.png?text=AutoParts+Logo) 
+![AutoParts Logo](https://github.com/franciscalorraynes/AutoParts-2.0/blob/main/logo_autoparts.png?raw=true) 
 Sistema de controle de estoque de peças automotivas com interface gráfica desenvolvida em **Python (Tkinter)** e banco de dados **PostgreSQL**.
 
 ---
