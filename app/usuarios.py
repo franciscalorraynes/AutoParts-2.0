@@ -1,6 +1,6 @@
 # usuarios.py
 
-from db import conectar
+from app.db import conectar
 
 def cadastrar_usuario():
     print("\nCadastro de Novo Usuário")

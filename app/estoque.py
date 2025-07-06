@@ -1,6 +1,6 @@
 # estoque.py
 
-from db import conectar
+from app.db import conectar
 
 def cadastrar_peca():
     print("\nCadastro de Peça")

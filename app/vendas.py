@@ -1,5 +1,5 @@
 # vendas.py
-from db import conectar
+from app.db import conectar
 
 def registrar_venda(id_peca, quantidade_vendida):
     conn = conectar()

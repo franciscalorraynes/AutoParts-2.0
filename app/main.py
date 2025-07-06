@@ -4,7 +4,7 @@ from estoque import cadastrar_peca, listar_pecas, consultar_peca, atualizar_peca
 from relatorio import Relatorio
 from usuarios import login, cadastrar_usuario
 from utils import exibir_menu
-from db import criar_tabelas
+from app.db import criar_tabelas
 from vendas import RegistrarVenda
 
 def main():
