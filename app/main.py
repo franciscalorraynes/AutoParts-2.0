@@ -8,12 +8,11 @@ from app.db import criar_tabelas
 from vendas import RegistrarVenda
 
 def main():
-    criar_tabelas()  # Garante que as tabelas existem
+    criar_tabelas()  
 
-    print("Bem-vindo ao AutoParts Inventory System 🚗")
+    print("Bem-vindo ao AutoParts Inventory System")
     user_type = None
 
-    # Loop de login até acertar
     while not user_type:
         user_type = login()
 
@@ -35,7 +34,7 @@ def main():
             if user_type == "ADM":
                 remover_peca(user_type)
             else:
-                print("⛔ Permissão negada! Apenas ADM pode remover peças.")
+                print("Permissão negada! Apenas ADM pode remover peças.")
 
         elif opcao == '6':
             Relatorio()

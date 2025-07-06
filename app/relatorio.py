@@ -23,7 +23,7 @@ class Relatorio:
         self.btn_exportar = tk.Button(self.top, text="Exportar para Excel", command=self.exportar_excel)
         self.btn_exportar.pack(pady=10)
 
-        self.movimentacoes = []  # Guarda o resultado da consulta
+        self.movimentacoes = []  
 
         self.mostrar_resumo()
 

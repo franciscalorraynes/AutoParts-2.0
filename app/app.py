@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 import psycopg2
 
-from app.db import conectar  # mantém sua importação local
+from app.db import conectar  
 from PIL import Image, ImageTk
 import os
 
@@ -142,7 +142,7 @@ class TelaLogin:
             row=3, columnspan=2, pady=(20, 0)
         )
 
-        # Pressionar <Return> faz login
+        
         self.entry_senha.bind("<Return>", lambda _: self._login())
         center_window(root, 360, 300)
 

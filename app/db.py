@@ -3,10 +3,10 @@ import psycopg2
 
 def conectar():
     return psycopg2.connect(
-        host="localhost",
-        database="estoque",
-        user="postgres",
-        password="12345",
+        host="seucaminho",
+        database="seucaminho",
+        user="seucaminho",
+        password="seucaminho",
         port=5432
     )
 
