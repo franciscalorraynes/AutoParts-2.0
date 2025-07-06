@@ -14,7 +14,6 @@ Sistema de controle de estoque de peças automotivas com interface gráfica dese
 - [x] Geração de relatórios de movimentações
 - [x] Exportação de relatórios para Excel
 - [x] Cadastro de novos usuários (somente ADM)
-- [x] Interface gráfica responsiva com design moderno
 
 ---
 
