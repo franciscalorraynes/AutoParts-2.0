@@ -1,5 +1,3 @@
-# estoque.py
-
 from app.db import conectar
 
 def cadastrar_peca():

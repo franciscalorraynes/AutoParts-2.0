@@ -1,5 +1,3 @@
-# usuarios.py
-
 from app.db import conectar
 
 def cadastrar_usuario():

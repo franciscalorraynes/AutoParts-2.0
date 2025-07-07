@@ -1,5 +1,3 @@
-# main.py
-
 from estoque import cadastrar_peca, listar_pecas, consultar_peca, atualizar_peca, remover_peca
 from relatorio import Relatorio
 from usuarios import login, cadastrar_usuario

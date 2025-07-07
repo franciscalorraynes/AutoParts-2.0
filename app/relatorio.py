@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from app.db import conectar
+from db import conectar
 import pandas as pd
 
 class Relatorio:

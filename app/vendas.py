@@ -1,6 +1,4 @@
-# vendas.py
-from app.db import conectar
-
+from db import conectar
 def registrar_venda(id_peca, quantidade_vendida):
     conn = conectar()
     cur = conn.cursor()

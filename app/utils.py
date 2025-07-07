@@ -1,5 +1,3 @@
-# utils.py
-
 def exibir_menu(user_type):
     print("""
 ==============================

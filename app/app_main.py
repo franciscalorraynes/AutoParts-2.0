@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 import psycopg2
 
-from app.db import conectar  
+from db import conectar
 from PIL import Image, ImageTk
 import os
 
